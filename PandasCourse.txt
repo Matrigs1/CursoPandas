@@ -1,0 +1,20 @@
+1: Introduction----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Porque as listas nativas do Python conseguem guardar tipos diferentes?
+Porque elas armazenam ponteiros, que referenciam objetos na memória RAM.
+
+Numpy:
+Biblioteca que oferece algumas operações e containers para manipulação de dados.
+Array em np: diferente de uma lista nativa do Python, um array do Numpy aloca na memória os itens em uma sequência seguida, ou seja, mais performático no quesito acesso aos elementos. Porém, seu downside é que, os itens precisam ser todos do mesmo tipo, para que eles consigam ocupar espaços adjuntos na memória.
+
+2: Series----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+O que são Series? Uma sequência de valores de uma dimensão, com rótulos associados.
+Podem conter diferentes tipos de dados.
+
+Declarar: pd.Series(obj_iteravel) # Já é esperto o suficiente para mostrar o tipo de dado contido.
+
+
+
+
